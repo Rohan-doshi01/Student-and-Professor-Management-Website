@@ -1,0 +1,11 @@
+# Project Name: Student Management (Online Course Certification)
+
+1 . Open terminal by " ctrl + ` "
+2 . Create a Virtual Environment by "python -m venv venv"
+3 . Activate Virtual Environment "venv\Scripts\activate"
+4 . Install Requirements Package "pip install -r requirements.txt"
+5 . Install addons by "pip install pillow"
+6 . Create database by "python manage.py makemigrations"
+7 . Migrate Database "python manage.py migrate"
+8 . Create Super User "python manage.py createsuperuser"
+9 . Finally Run The Project by typing "python manage.py runserver"

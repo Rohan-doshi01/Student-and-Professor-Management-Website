@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% include 'base/header.html' %}
+
+  <body
+    class="app header-fixed sidebar-fixed aside-menu-fixed aside-menu-hidden"
+  >
+    {% include 'base/navbar.html' %}
+
+    <div class="app-body">
+      {% include 'base/sidebar.html' %}
+
+      <main class="main">
+        {% include 'base/breadcrumb.html' %}
+
+        <div class="container-fluid">
+          <div class="animated fadeIn">{% block content %} {% endblock %}</div>
+        </div>
+      </main>
+
+      {% include 'base/asidebar.html' %}
+    </div>
+
+    {% include 'base/footer.html' %}
+
+    <!--JS-->
+    {% include 'base/js.html' %}
+  </body>
+</html>
