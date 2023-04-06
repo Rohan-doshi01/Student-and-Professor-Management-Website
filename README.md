@@ -5,39 +5,39 @@
 ## How to run:
 Open terminal by
 ```bash
-  " ctrl + ` "
+   ctrl + ` 
  ```
   Create a Virtual Environment by
  ```bash
- "python -m venv venv"
+ python -m venv venv
  ```
   Activate Virtual Environment 
  ```bash
-"venv\Scripts\activate"
+venv\Scripts\activate
  ```
  Install Requirements Package 
  ```bash
- "pip install -r requirements.txt"
+ pip install -r requirements.txt
  ```
  Install addons by
  ```bash
-  "pip install pillow"
+  pip install pillow
  ```
  Create database by
  ```bash
-  "python manage.py makemigrations"
+  python manage.py makemigrations
  ```
   Migrate Database
  ```bash
- "python manage.py migrate"
+ python manage.py migrate
  ```
   Create Super User
  ```bash
- "python manage.py createsuperuser"
+ python manage.py createsuperuser
  ```
  Finally Run The Project by typing 
  ```bash
- "python manage.py runserver"
+ python manage.py runserver
  ```
 
  
